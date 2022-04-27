@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API FrameWork">
+      <UniqueIdentifier>{648e73ef-b751-4176-8c04-8e4aa929a653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\DesignPattern">
+      <UniqueIdentifier>{381e05d8-87d0-41c8-81ee-28447283def6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\DesignPattern\Singleton">
+      <UniqueIdentifier>{423160c8-489e-4820-893b-ba1d69f51830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Stdafx">
+      <UniqueIdentifier>{55ba6f76-7637-4fd2-a5a6-8d16021b289a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\GameNode">
+      <UniqueIdentifier>{c80812ca-78ac-4a41-a3b3-3894a99f97a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\KeyManager">
+      <UniqueIdentifier>{fe345b9e-1bff-417c-a879-8e4cd2a1e31a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{11d6f2db-5a8c-4240-91f6-34d85bc14363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\image">
+      <UniqueIdentifier>{6c6bd120-7c5f-439d-a83a-3bf94f0e013f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\ImageManager">
+      <UniqueIdentifier>{54efa0d8-08be-4bf8-b490-ebf8bbae069f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Fontmanager">
+      <UniqueIdentifier>{ae4c25a5-060b-4dd7-be8f-3c291698c8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Sound">
+      <UniqueIdentifier>{f7c4ab35-75a7-489f-ace0-f456431b6db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Scene">
+      <UniqueIdentifier>{b3a043f2-04c9-4c0c-a2b1-70467d5ce535}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>API FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>API FrameWork\Stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>API FrameWork\KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>API FrameWork\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>API FrameWork\image</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>API FrameWork\ImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondScene.cpp">
+      <Filter>API FrameWork\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>API FrameWork\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>API FrameWork\Fontmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="TempSoundManager.cpp">
+      <Filter>API FrameWork\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="TempSoundTest.cpp">
+      <Filter>API FrameWork\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>API FrameWork\DesignPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>API FrameWork\Stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>API FrameWork\KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>API FrameWork\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>API FrameWork\image</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>API FrameWork\ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondScene.h">
+      <Filter>API FrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>API FrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>API FrameWork\Fontmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="TempSoundManager.h">
+      <Filter>API FrameWork\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="TempSoundTest.h">
+      <Filter>API FrameWork\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
