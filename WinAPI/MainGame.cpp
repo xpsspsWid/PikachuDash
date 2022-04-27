@@ -11,7 +11,7 @@ HRESULT MainGame::init(void)
 	_second = new SecondScene;
 	_second->init();
 
-	_currentScene = _second;
+	_currentScene = _start;
 	assert(_currentScene != nullptr);
 
 	return S_OK;
